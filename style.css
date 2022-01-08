@@ -1,0 +1,19 @@
+body {
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(30,30,92,1) 25%, rgba(94,100,138,1) 92%);
+    font-family: 'Handlee', cursive;
+  }
+
+  .table-hover tbody tr:hover td {  
+    background-color: rgb(105, 102, 102, 0.5);  
+    color: white;
+}
+
+.table-hover tbody tr:hover th {  
+  background-color: rgb(105, 102, 102, 0.5);  
+  color: white;
+}
+
+#task_text{
+  word-wrap: break-word;
+}
